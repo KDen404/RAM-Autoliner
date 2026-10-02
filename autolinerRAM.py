@@ -1,6 +1,16 @@
-#This script was written by Github User Cybr3
-#   https://github.com/Cybr3
-#By using this Program i agree not to publish it on a third party
+# RAM Autoliner
+#
+# Copyright (c) 2022-2026 KDen404
+# https://github.com/KDen404
+#
+# SPDX-License-Identifier: MIT
+#
+# This software is provided "as is", without warranty of any kind,
+# express or implied. The author shall not be liable for any claim,
+# damages, data loss, or other liability arising from the use,
+# modification, or distribution of this software.
+#
+# See the LICENSE file for the full license terms.
 
 
 import os
@@ -36,8 +46,8 @@ for filename in os.listdir(diri):
                 outf.append(str(f))
 
         z = open(target,"a")
-        z.write("// This file was rewritten by Defeated's RAM Autoliner\n")
-        z.write("// https://github.com/Cybr3\n")
+        z.write("// This file was rewritten by KDen404's RAM Autoliner\n")
+        z.write("// https://github.com/KDen404\n")
         for line in outf:
             z.write(str(line) + "\n")
 
